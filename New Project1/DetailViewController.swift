@@ -41,8 +41,8 @@ class DetailViewController: UIViewController {
     @objc func shareLink() {
         let link = "https://github.com/Busido14/project1"
     
-        let vc = UIActivityViewController(activityItems: [link], applicationActivities: [])
-        vc.popoverPresentationController?.barButtonItem = navigationItem.rightBarButtonItem
-        present(vc, animated: true)
+        let dc = UIActivityViewController(activityItems: [link], applicationActivities: [])
+        dc.popoverPresentationController?.barButtonItem = navigationItem.rightBarButtonItem
+        present(dc, animated: true)
     }
 }
